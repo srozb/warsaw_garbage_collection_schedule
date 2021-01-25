@@ -1,0 +1,19 @@
+addressPointId: 12345678
+fractions_to_monitor:
+  - BG
+  - BK
+  - MT
+  - OP
+  - OS
+  - OZ
+  - WG
+  - ZM
+
+daemon:
+  check_interval: 60
+
+mqtt:
+  host: 127.0.0.1
+  username: mqtt_user
+  password: mqtt_passwd
+  topic: garbage/schedule
